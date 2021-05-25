@@ -26,9 +26,6 @@ void setup() {
    FastLED.clear();
 }
 
-// Variable to save colour of ring
-CRGB ring_colour;
-
 void loop() { 
   // Scale analog value from 0->1023 to 0->255
   int gradient_value = map(analogRead(ROTARY_BUTTON),0,1023,0,255);
