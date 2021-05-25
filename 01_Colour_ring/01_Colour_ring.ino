@@ -17,10 +17,10 @@ void setup() {
    FastLED.clear();
    
    // Setup buttons
- 	 pinMode(PUSH_BUTTON, INPUT_PULLUP);
+ 	pinMode(PUSH_BUTTON, INPUT_PULLUP);
 }
 
-// Variable to save ring colour in
+// Variable to save colour of ring
 CRGB ring_colour;
 
 void loop() { 
